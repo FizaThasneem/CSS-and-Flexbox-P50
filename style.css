@@ -1,0 +1,48 @@
+h1 {
+  color: darkorange;
+}
+
+h2{
+color: darkmagenta;
+}
+
+p{
+color: deeppink;
+}
+
+ul{
+color: hotpink;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 400;
+}
+
+.grid img{
+  border: 2px solid black;
+  border-radius: 50px;
+}
+
+.grid{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.origami{
+  border-radius: 20px;
+  width: 310px;
+}
+
+.footer{
+  display: flex;
+  justify-content: flex-end;
+}
